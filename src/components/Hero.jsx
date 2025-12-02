@@ -1,4 +1,4 @@
-import van from "../assets/images/heroImage.jpg";
+import van from "../assets/images/van.jpg";
 
 const Hero = () => {
   return (
@@ -12,12 +12,12 @@ const Hero = () => {
       />
 
       {/* White-to-transparent gradient (left side) */}
-      <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/40 to-transparent"></div>
+      <div className="absolute inset-0 from-white/80 via-white/40 to-transparent"></div>
 
       {/* Hero Content */}
       <div className="absolute inset-0 max-w-7xl mx-auto px-6 flex items-center justify-start">
 
-        <div className="text-left text-black max-w-xl">
+        <div className="text-left text-white max-w-xl">
           <h1 className="text-2xl md:text-5xl font leading-tight">
             Fast, Flawless And <br />
             Future-Ready Logistics
