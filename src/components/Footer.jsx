@@ -11,7 +11,7 @@ import logoFooter from "../assets/images/deliyudaan logo.png";
 
 const Footer = () => {
   return (
-    <footer className=" mt-10">
+    <footer className=" mt-10 bg-orange-300">
       <div className="border-t border-gray-300 max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-5 gap-10">
      
 
@@ -91,10 +91,10 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div>
-        <div className="py-8 border-t border-gray-300 max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between text-sm text-gray-500">
-          <p>© 2024 Copyright trackon.in. All Rights Reserved. | Powered By Trackon Couriers Pvt. Ltd.</p>
+        <div className="py-8 border-t border-gray-300 max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between text-sm text-gray-500 text-center">
+          <p>© 2025 Copyright deliyudaan.in. All Rights Reserved. | Powered By Trackon Couriers Pvt. Ltd.</p>
 
-          <div className="flex gap-4 mt-2 md:mt-0">
+          <div className="flex gap-4 mt-2 md:mt-0 justify-center">
             <p>Privacy Policy</p>
             <p>Terms & Conditions</p>
           </div>

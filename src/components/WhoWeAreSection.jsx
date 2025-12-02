@@ -51,10 +51,10 @@ const WhoWeAreSection = () => {
 
 
       {/* Become Our Partner Section */}
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 mt-16 items-center">
+      <div className="max-w-7xl mx-auto grid flex  md:grid-cols-2 gap-12 mt-16 items-center ">
         {/* Handshake Image (FULL WIDTH CENTERED) */}
 
-        <div className="flex justify-center">
+        <div className="flex justify-center order-2 md:order-1">
           <img
             src={handShake}
             alt="Trackon Van"
@@ -63,7 +63,7 @@ const WhoWeAreSection = () => {
         </div>
 
         {/* RIGHT SIDE TEXT (But on left for small screens) */}
-        <div>
+        <div className="order-1 md:order-2">
           <p className="text-sm font-semibold tracking-wide text-gray-700">
             LET'S TEAM UP
           </p>
